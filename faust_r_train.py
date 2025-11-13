@@ -94,7 +94,7 @@ C_in={'xyz':3, 'hks':16, 'wks':128}[input_features] # dimension of input feature
 
 
 
-model = diffusion_net.layers.RFMNet(C_in=C_in,C_out=256)
+model = diffusion_net.layers.MDND(C_in=C_in,C_out=256)
 
 model = model.to(device)
 
