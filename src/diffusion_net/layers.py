@@ -484,7 +484,7 @@ class Meyer(object):
 
 from .utils import dist_mat, nn_search
 
-class RFMNet(torch.nn.Module):
+class MDND(torch.nn.Module):
     def __init__(self,C_in, C_out, is_mwp=True):
         
         super().__init__()
